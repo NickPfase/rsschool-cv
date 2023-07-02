@@ -2,7 +2,9 @@
 
 # **Kotsur Nikita**
 ----
+
 ![](/E75C09DA-944B-4F97-8909-ACEEEDD79BDD.jpg)
+
 ----
 ## **Contacts**
 ----
