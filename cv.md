@@ -2,12 +2,15 @@
 
 # **Kotsur Nikita**
 ----
+![](/E75C09DA-944B-4F97-8909-ACEEEDD79BDD.jpg)
+----
 ## **Contacts**
 ----
 - **Location:** [Minsk, Belarus](https://yandex.by/maps/157/minsk/?ll=27.555691%2C53.902735&z=12)
 - **Phone:** +375 29 3110481
 - **Email:** nickpfasedanone@gmail.com
 - **GitHub:** [My GitHub](https://github.com/NickPfase)
+- **Discord:** NickPfase
 
 ## **About Me**
 ----
@@ -25,27 +28,28 @@ It doesn't matter what is written here, the main aim is to create a CV in MarkDo
     - Team play
     - Supervisor experience
 - **Mentoring**
-
+- **Management**
 ## **Code Example**
 ----
-*This is an example from my Udemy JS courses*
 ```
-const weightMark = 96;
-const heightMark = 1.88;
-const weightJohn = 85;
-const heightJohn = 1.76;
+Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
 
-const BMIMark = weightMark / heightMark ** 2;
-console.log(BMIMark);
-const BMIJohn = weightJohn / heightJohn ** 2;
-console.log(BMIJohn);
+For example,
 
-console.log(BMIMark > BMIJohn);
+[true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true]
+The correct answer would be 17.
 
-if (BMIMark > BMIJohn) {
-    console.log(`Mark's BMI (${BMIMark.toFixed(2)}) is higher than John's (${BMIJohn.toFixed(2)})!`);
-} else {
-    console.log(`John's BMI (${BMIJohn.toFixed(2)}) is higher than Mark's (${BMIMark.toFixed(2)})!`);
+Hint: Don't forget to check for bad values like null/undefined
+
+function countSheeps(arrayOfSheep) {
+  // TODO May the force be with you
+const count = arrayOfSheep.filter(Boolean, null, undefined).length;
+return count;
 }
 ```
 
