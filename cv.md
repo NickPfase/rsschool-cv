@@ -1,5 +1,3 @@
-[My **CV**](https://NickPfase.github.io/rsschool-cv/cv)
-
 # **Kotsur Nikita**
 ----
 
