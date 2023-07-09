@@ -1,18 +1,18 @@
 h1 {
-    color: red;
-    background-color: yellow;
+    color: black;
+    text-align: center;
     border: 1px solid black;
 }
 
 
 p {
-    color: green;
+    color: black;
     background-color: white;
     text-align: center;
 }
 
 li {
-    color: purple;
+    color: black;
 }
 
 .nav_item {
@@ -36,12 +36,10 @@ li {
     text-align: end;
 }
 
-.nav_CV {
-    text-align: center;
-}
 
 .code_copy {
     background-color: lightgray;
+    border: 1px solid black;
 }
 
 
@@ -50,4 +48,9 @@ li {
     margin: auto;
     background: white;
     padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
 }
