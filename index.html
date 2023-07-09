@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>CV for RsSchool</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="123123.png">
 </head>
 
 <body>
@@ -36,11 +37,11 @@
     </header>
     <main>
         <h1>Kotsur Nikita</h1>
-        <img src="E75C09DA-944B-4F97-8909-ACEEEDD79BDD.jpg" alt="My foto" width="136.5" height="204.8">
+        <img src="E75C09DA-944B-4F97-8909-ACEEEDD79BDD.jpg" alt="My foto" width="136" height="204">
 
         <h2 class="section_title" id="about_me">About me</h2>
         <hr>
-        <p id="about_me">
+        <p>
             I'm a Manual QA engineer in TulaCo. I'm 31 years old. I'm fond of cycling.
         </p>
 
@@ -58,12 +59,14 @@
 
         <h2 class="section_title" id="skills">Skills</h2>
         <hr>
-        <ul>
-            <ul class="section_title">Manual testing</ul>
+        <h3>Manual testing:</h3>
+        <ul class="section_title">
             <li>FE testing</li>
             <li>BE testing</li>
             <li>Mobile testing</li>
-            <ul class="section_title">Management</ul>
+        </ul>
+        <h3>Management:</h3>
+        <ul class="section_title">
             <li>PM</li>
             <li>Team lead</li>
             <li>Team play</li>
@@ -73,8 +76,8 @@
 
         <h2 class="section_title" id="code_example">Code Example</h2>
         <hr>
-        <code>
-            <pre class="code_copy">
+        <code class="code_copy">
+
                 Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
 
 For example,
@@ -94,7 +97,7 @@ function countSheeps(arrayOfSheep) {
 const count = arrayOfSheep.filter(Boolean, null, undefined).length;
 return count;
 }
-            </pre>
+          
         </code>
 
         <h2 class="section_title" id="projects">Projects</h2>
@@ -133,13 +136,13 @@ return count;
 
     <footer>
         <a class="footer_rsschool" href="https://github.com/NickPfase" target="_blank">
-            <img src="Github_logo_PNG9.png" height="40" width="40">
+            <img src="Github_logo_PNG9.png" alt="My GitHub link" height="40" width="40">
         </a>
         <p class="footer_year">
             2023
         </p>
-        <a class="footer_rsschool_logo" href="https://rs.school/js/" width="20" height="20">
-            <img src="rs_school_js.svg" height="40" width="40"></a>
+        <a class="footer_rsschool_logo" href="https://rs.school/js/">
+            <img src="rs_school_js.svg" alt="RsSchool course link" height="40" width="40"></a>
     </footer>
 
 </body>
