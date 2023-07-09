@@ -43,3 +43,11 @@ li {
 .code_copy {
     background-color: lightgray;
 }
+
+
+.zoomingout {
+    max-width: 1536px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
