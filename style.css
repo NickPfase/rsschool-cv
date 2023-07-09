@@ -1,0 +1,56 @@
+h1 {
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+p {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+li {
+    color: black;
+}
+
+.nav_item {
+    color: red;
+}
+
+.contact_item {
+    font-weight: bold;
+
+}
+
+.footer_year {
+    text-align: center;
+}
+
+.section_title {
+    color: blue;
+}
+
+.footer_rsschool {
+    text-align: end;
+}
+
+
+.code_copy {
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+
+.zoomingout {
+    max-width: 1536px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
