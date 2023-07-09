@@ -29,6 +29,7 @@ It doesn't matter what is written here, the main aim is to create a CV in MarkDo
     - Supervisor experience
 - **Mentoring**
 - **Management**
+
 ## **Code Example**
 ----
 

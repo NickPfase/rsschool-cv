@@ -4,11 +4,11 @@ h1 {
     border: 1px solid black;
 }
 
+
 p {
-    margin: 0%;
     color: green;
     background-color: white;
-    border: 0.5px solid black;
+    text-align: center;
 }
 
 li {
@@ -24,6 +24,22 @@ li {
 
 }
 
+.footer_year {
+    text-align: center;
+}
+
 .section_title {
     color: blue;
+}
+
+.footer_rsschool {
+    text-align: end;
+}
+
+.nav_CV {
+    text-align: center;
+}
+
+.code_copy {
+    background-color: lightgray;
 }

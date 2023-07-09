@@ -10,7 +10,7 @@
 <body>
     <header>
         <p>Navigation throught my CV</p>
-        <nav>
+        <nav class="nav_CV">
             <ul>
                 <li class="nav_item">
                     <a href="#about_me">About me</a>
@@ -24,6 +24,13 @@
                 <li class="nav_item">
                     <a href="#english">English</a>
                 </li>
+
+                <li class="nav_item">
+                    <a href="#code_example">Code Example</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#skills">Skills</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -33,12 +40,9 @@
 
         <h2 class="section_title" id="about_me">About me</h2>
         <hr>
-        <ul>
-            <li id="about_me">
-                It doesn't matter what is written here, the main aim is to create a CV in MarkDown format.
-            </li>
-        </ul>
-
+        <p id="about_me">
+            I'm a Manual QA engineer in TulaCo. I'm 31 years old. I'm fond of cycling.
+        </p>
 
         <h2 class="section_title" id="contacts">Contacts</h2>
         <hr>
@@ -52,7 +56,58 @@
             <li class="contact_item">Discord: NickPfase</li>
         </ul>
 
+        <h2 class="section_title" id="skills">Skills</h2>
+        <hr>
+        <ul>
+            <ul class="section_title">Manual testing</ul>
+            <li>FE testing</li>
+            <li>BE testing</li>
+            <li>Mobile testing</li>
+            <ul class="section_title">Management</ul>
+            <li>PM</li>
+            <li>Team lead</li>
+            <li>Team play</li>
+            <li>Supervisor experience</li>
+            <li>Mentoring</li>
+        </ul>
 
+        <h2 class="section_title" id="code_example">Code Example</h2>
+        <hr>
+        <code>
+            <pre class="code_copy">
+                Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+
+For example,
+
+[true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true]
+The correct answer would be 17.
+
+Hint: Don't forget to check for bad values like null/undefined
+
+function countSheeps(arrayOfSheep) {
+  // TODO May the force be with you
+const count = arrayOfSheep.filter(Boolean, null, undefined).length;
+return count;
+}
+            </pre>
+        </code>
+
+        <h2 class="section_title" id="projects">Projects</h2>
+        <hr>
+        <ul>
+            <li>
+                <a href="https://nickpfase.github.io/rsschool-cv/cv">My CV project in MarkDown for RsSchool</a>
+            </li>
+            <li>
+                <a href="https://github.com/NickPfase/rsschool-cv/blob/rsschool-cv-html/index.html">My source code for
+                    CV in HTML</a>
+            </li>
+        </ul>
 
         <h2 class="section_title" id="education">Education</h2>
         <hr>
@@ -76,7 +131,16 @@
 
     </main>
 
-
+    <footer>
+        <a class="footer_rsschool" href="https://github.com/NickPfase" target="_blank">
+            <img src="Github_logo_PNG9.png" height="40" width="40">
+        </a>
+        <p class="footer_year">
+            2023
+        </p>
+        <a class="footer_rsschool_logo" href="https://rs.school/js/" width="20" height="20">
+            <img src="rs_school_js.svg" height="40" width="40"></a>
+    </footer>
 
 </body>
 
